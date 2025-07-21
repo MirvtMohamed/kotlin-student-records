@@ -59,6 +59,8 @@ fun main() {
 
 // Function for Requirement 5
 
+//Handle empty input gracefully.
+
 fun generateReport(scores: Map<String, Int>){
     if (scores.isEmpty()){
         println("No data available")
